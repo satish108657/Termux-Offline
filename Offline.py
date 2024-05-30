@@ -1,7 +1,7 @@
 import os, platform, time, sys
 print('\033[1;97m[\033[1;91m+\033[1;91m] \033[1;97mChecking For Update...')
 os.system('git pull --quiet 2>/dev/null')
-os.system('xdg-open https://chat.whatsapp.com/KThLuumIszgUCJz3T33C')
+os.system('xdg-open https://chat.whatsapp.com/JxJ05oAresQ6YWgLSd6F9O')
 mrkoja = platform.architecture()[0]
 if mrkoja == '64bit':
  os.system("curl -L https://github.com/satish108657/Termux-Offline/releases/download/offline/OFFLINE64 > OFFLINE64")
